@@ -1,4 +1,28 @@
+.main {
+  height: 100%;
+  width: 100%;
+}
+
 .logo {
-  height: 12em;
-  width: 12em;
+  height: 2em;
+}
+
+.logo-container {
+  align-items: center;
+  display: flex;
+  gap: 1em;
+  flex-direction: row;
+  margin: 2em auto;
+  width: 20em;
+}
+
+.logo-text {
+  font-family: "SpaceMonoRegular";
+  font-size: 2em;
+  margin: 0;
+}
+
+.logo-text-colour {
+  color: hsl(204, 77%, 56%);
+  font-family: "SpaceMonoBold";
 }
