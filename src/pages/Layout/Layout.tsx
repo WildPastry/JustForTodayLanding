@@ -1,12 +1,13 @@
-import Footer from '../components/Footer';
-import Reflections from '../components/Reflections';
-import Steps from '../components/Steps';
-import Traditions from '../components/Traditions';
-import jftLogo from '../assets/just-for-today.svg';
+import './Layout.component.css';
+import Footer from '../../components/Footer';
+import Reflections from '../../components/Reflections';
+import Steps from '../../components/Steps';
+import Traditions from '../../components/Traditions';
+import jftLogo from '../../assets/just-for-today.svg';
 
 const Layout: React.FC = (): JSX.Element => {
   return (
-    <section>
+    <main className='main'>
       <div className='logo-container'>
         <img src={jftLogo} className='logo' alt='JustForToday Logo' />
         <h1 className='logo-text'>
@@ -17,7 +18,7 @@ const Layout: React.FC = (): JSX.Element => {
       <Steps />
       <Traditions />
       <Footer />
-    </section>
+    </main>
   );
 };
 

@@ -1,4 +1,4 @@
-import Layout from '../pages/Layout';
+import Layout from '../pages/Layout/Layout';
 import Privacy from '../pages/Privacy';
 import Terms from '../pages/Terms';
 
