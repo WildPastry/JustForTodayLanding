@@ -1,3 +1,4 @@
+import Footer from '../components/Footer';
 import Reflections from '../components/Reflections';
 import Steps from '../components/Steps';
 import Traditions from '../components/Traditions';
@@ -15,6 +16,7 @@ const Layout: React.FC = (): JSX.Element => {
       <Reflections />
       <Steps />
       <Traditions />
+      <Footer />
     </section>
   );
 };

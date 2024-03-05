@@ -1,12 +1,11 @@
 import './App.css';
-import Layout from './pages/Layout';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import routesConfig from './routes/Routes';
 
 const App: React.FC = (): JSX.Element => {
-  return (
-    <main className='main'>
-      <Layout />
-    </main>
-  );
+  const router = createBrowserRouter(routesConfig);
+  // Provide the router configuration using RouterProvider
+  return <RouterProvider router={router} />;
 };
 
 export default App;
