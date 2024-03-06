@@ -5,3 +5,4 @@ Landing page for JustForToday
 
 * **React** <br>
 * **TypeScript** <br>
+* **Tailwind** <br>

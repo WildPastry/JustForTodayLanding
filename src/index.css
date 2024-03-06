@@ -37,10 +37,27 @@
     url(./assets/fonts/Inter-Bold.ttf) format('truetype');
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: hsl(0, 0%, 100%);
+    --background: hsl(240, 31%, 25%);
+    --link: hsl(204, 77%, 56%);
+  }
+} 
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text: hsl(0, 0%, 0%);
+    --background: hsl(0, 0%, 100%);
+    --link: hsl(204, 100%, 38%);
+  }
+} 
+
 :root {
   color-scheme: light dark;
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(240, 31%, 25%);
+
+  color: var(--text);
+  background-color: var(--background);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -55,9 +72,15 @@ body {
   min-height: 100vh;
 }
 
-a, ul, li {
+a {
+  color: var(--link);
+}
+
+a,
+ul,
+li {
   font-family: 'InterThin';
-  color: hsl(0, 0%, 100%);
+  color: var(--text);
   text-decoration: none;
 }
 
