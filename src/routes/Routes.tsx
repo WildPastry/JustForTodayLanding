@@ -1,5 +1,5 @@
 import Layout from '../pages/Layout/Layout';
-import Privacy from '../pages/Privacy';
+import Privacy from '../pages/Privacy/Privacy';
 import Terms from '../pages/Terms';
 
 const routesConfig = [
