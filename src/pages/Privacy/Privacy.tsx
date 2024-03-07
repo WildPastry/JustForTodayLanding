@@ -36,10 +36,13 @@ const Privacy: React.FC = (): JSX.Element => {
         <div className={styles.divider} />
         <h3>6</h3>Contact Us: If you have any questions or concerns regarding
         this Privacy Statement or the privacy practices of <b>JustForToday</b>,
-        please contact us at <a>justfortoday@mikeparker.co.nz</a>. By using{' '}
-        <b>JustForToday</b>, you signify your acceptance of this Privacy
-        Statement. If you do not agree to this Privacy Statement, please refrain
-        from using our mobile application. Thank you for trusting{' '}
+        please contact us at{' '}
+        <a href='mailto:justfortoday@mikeparker.co.nz'>
+          justfortoday@mikeparker.co.nz
+        </a>
+        . By using <b>JustForToday</b>, you signify your acceptance of this
+        Privacy Statement. If you do not agree to this Privacy Statement, please
+        refrain from using our mobile application. Thank you for trusting{' '}
         <b>JustForToday</b> with your privacy.
       </p>
     </section>
