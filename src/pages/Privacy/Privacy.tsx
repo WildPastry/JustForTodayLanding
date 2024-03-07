@@ -24,25 +24,15 @@ const Privacy: React.FC = (): JSX.Element => {
         potentially identify you.
         <div className={styles.divider} />
         <h3>2</h3>Data Usage: Since we do not collect any data, we do not use
-        your personal information for any purpose. Your privacy is our utmost
-        priority, and we adhere to strict guidelines to ensure that your data
-        remains secure.
+        your personal information for any purpose.
         <div className={styles.divider} />
         <h3>3</h3>Data Sharing: We do not share any data, personal or otherwise,
         with third parties. Your information is not disclosed, sold, or rented
         to any external entities.
         <div className={styles.divider} />
-        <h3>4</h3>Children's Privacy: Our mobile application is not directed
-        towards children under the age of 13. We do not knowingly collect any
-        personal information from children. If you are a parent or guardian and
-        believe that your child has provided us with personal information,
-        please contact us immediately, and we will take appropriate action to
-        remove such information from our records.
-        <div className={styles.divider} />
         <h3>5</h3>Changes to this Privacy Statement: We reserve the right to
         update this Privacy Statement from time to time. Any changes will be
-        reflected on this page, and we encourage you to review this Privacy
-        Statement periodically for any updates or modifications.
+        reflected on this page.
         <div className={styles.divider} />
         <h3>6</h3>Contact Us: If you have any questions or concerns regarding
         this Privacy Statement or the privacy practices of <b>JustForToday</b>,
