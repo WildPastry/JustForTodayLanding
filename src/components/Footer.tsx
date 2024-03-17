@@ -8,6 +8,9 @@ const Footer: React.FC = (): JSX.Element => {
       <h2>Footer</h2>
       <ul>
         <li>
+          <Link to={'/support'}>Support</Link>
+        </li>
+        <li>
           <Link to={'/privacy'}>Privacy</Link>
         </li>
         <li>
