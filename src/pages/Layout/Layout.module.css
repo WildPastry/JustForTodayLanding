@@ -26,3 +26,7 @@
   color: hsl(204, 77%, 56%);
   font-family: "SpaceMonoBold";
 }
+
+.store-badge {
+  width: 20em;
+}
