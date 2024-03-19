@@ -24,9 +24,11 @@
 
 .logo-text-colour {
   color: hsl(204, 77%, 56%);
-  font-family: "SpaceMonoBold";
+  font-family: 'SpaceMonoBold';
 }
 
 .store-badge {
-  width: 20em;
+  width: 15em;
+  vertical-align: bottom;
+  display: inline-block;
 }
