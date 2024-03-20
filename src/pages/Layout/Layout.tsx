@@ -18,6 +18,7 @@ const Layout: React.FC = (): JSX.Element => {
       </div>
       <div className={styles['store-badge']}>
         <a
+          className={styles['store-badge']}
           href='https://www.apple.com/nz/app-store/'
           target='_blank'
           rel='noopener noreferrer'>
