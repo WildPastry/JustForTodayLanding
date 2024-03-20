@@ -25,6 +25,7 @@ const Footer: React.FC = (): JSX.Element => {
       <p>
         © {currentDate}
         <a
+          className='ml-1'
           href='https://mikeparker.co.nz/'
           target='_blank'
           rel='noopener noreferrer'>

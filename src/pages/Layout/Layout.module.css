@@ -2,33 +2,3 @@
   height: 100%;
   width: 100%;
 }
-
-.logo-container {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  gap: 1em;
-  justify-content: center;
-  margin: 2em auto;
-  width: 25em;
-}
-
-.logo {
-  height: 2em;
-}
-
-.logo-text {
-  font-size: 2em;
-  margin: 0;
-}
-
-.logo-text-colour {
-  color: hsl(204, 77%, 56%);
-  font-family: 'SpaceMonoBold';
-}
-
-.store-badge {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 10em;
-}
