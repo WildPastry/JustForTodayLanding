@@ -5,7 +5,6 @@ const Footer: React.FC = (): JSX.Element => {
   const currentDate: number = new Date().getFullYear();
   return (
     <section>
-      <h2>Footer</h2>
       <ul>
         <li>
           <Link to={'/support'}>Support</Link>
