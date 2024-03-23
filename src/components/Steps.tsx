@@ -1,6 +1,6 @@
 const Steps: React.FC = (): JSX.Element => {
   return (
-    <section>
+    <section className='bg-blue-700'>
       <h2 className='text-3xl'>Steps</h2>
       <p>
         A set of spiritual principles. When practiced as a way of life, they can

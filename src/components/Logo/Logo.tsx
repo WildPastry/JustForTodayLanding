@@ -3,7 +3,7 @@ import styles from './Logo.module.css';
 
 const Logo: React.FC = (): JSX.Element => {
   return (
-    <section>
+    <section className='bg-indigo-900'>
       <div className={styles['logo-container']}>
         <img src={jftLogo} className={styles.logo} alt='JustForToday Logo' />
         <h1 className={styles['logo-text']}>

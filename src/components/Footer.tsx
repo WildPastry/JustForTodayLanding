@@ -4,7 +4,7 @@ const Footer: React.FC = (): JSX.Element => {
   // Get current date
   const currentDate: number = new Date().getFullYear();
   return (
-    <section>
+    <section className='bg-blue-900'>
       <ul>
         <li>
           <Link to={'/support'}>Support</Link>

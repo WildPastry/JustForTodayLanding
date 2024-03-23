@@ -1,6 +1,6 @@
 const Traditions: React.FC = (): JSX.Element => {
   return (
-    <section>
+    <section className='bg-blue-500'>
       <h2 className='text-3xl'>Traditions</h2>
       <p>
         Providing guidelines for relationships between the groups, members, the

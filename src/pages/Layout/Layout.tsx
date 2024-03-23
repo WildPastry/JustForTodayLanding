@@ -8,19 +8,21 @@ import styles from './Layout.module.css';
 
 const Layout: React.FC = (): JSX.Element => {
   return (
-    <main className={styles.main}>
-      <Reflections />
-      <Steps />
-      <Logo />
-      <div className={`grid grid-cols-6 gap-4`}>
-        <div className={`${styles.bg} col-start-2 col-span-4`}>01</div>
-        <div className={`${styles.bg} col-start-1 col-end-3`}>02</div>
-        <div className={`${styles.bg} col-end-7 col-span-2`}>03</div>
-        <div className={`${styles.bg} col-start-1 col-end-7`}>04</div>
+    <main className={`${styles.main} p-7`}>
+      <div className={`${styles.bg}`}>
+        <Reflections />
       </div>
-      <Traditions />
-      <Footer />
+      <div className={`${styles.bg}`}>
+        <Steps />
+      </div>
+      <div className={`${styles.bg}`}>
+        <Logo />
+      </div>
+      <div className={`${styles.bg}`}>
+        <Traditions />
+      </div>
       <Badges />
+      <Footer />
     </main>
   );
 };
