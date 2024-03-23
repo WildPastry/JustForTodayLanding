@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Terms: React.FC = (): JSX.Element => {
   return (
-    <section>
+    <section className='h-full w-full flex flex-col p-7'>
       <Link to={'/'}>
         <Close color={'#ffffff'} title={'CLOSE'} height='50px' width='50px' />
       </Link>

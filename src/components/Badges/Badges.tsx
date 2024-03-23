@@ -5,7 +5,7 @@ import styles from './Badges.module.css';
 const Badges: React.FC = (): JSX.Element => {
   return (
     <section className='bg-blue-700'>
-      <div className={styles['store-badge']}>
+      <div className={`${styles['store-badge']} me-5`}>
         <a
           className={styles['store-badge']}
           href='https://www.apple.com/nz/app-store/'
@@ -14,7 +14,7 @@ const Badges: React.FC = (): JSX.Element => {
           <img src={appleStoreBadge} alt='Apple Store Badge' />
         </a>
       </div>
-      <div className={styles['store-badge']}>
+      <div className={`${styles['store-badge']} me-5`}>
         <a
           className={styles['store-badge']}
           href='https://play.google.com/store/apps'
