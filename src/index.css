@@ -1,66 +1,34 @@
+/* Local fonts */
+@import url('fonts.css');
+
+/* Tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'SpaceMonoRegular';
-  src:
-    local('SpaceMonoRegular'),
-    url(./assets/fonts/SpaceMono-Regular.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'SpaceMonoBold';
-  src:
-    local('SpaceMonoBold'),
-    url(./assets/fonts/SpaceMono-Bold.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'InterThin';
-  src:
-    local('InterThin'),
-    url(./assets/fonts/Inter-Thin.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'InterLight';
-  src:
-    local('InterLight'),
-    url(./assets/fonts/Inter-Light.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'InterRegular';
-  src:
-    local('InterRegular'),
-    url(./assets/fonts/Inter-Regular.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'InterBold';
-  src:
-    local('InterBold'),
-    url(./assets/fonts/Inter-Bold.ttf) format('truetype');
-}
-
+/* Dark variables */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #2c2c54;
-    --spotBlue: #38a0e5;
     --text: #ffffff;
   }
-} 
+}
 
+/* Light variables */
 @media (prefers-color-scheme: light) {
   :root {
     --background: #ffffff;
-    --spotBlue: #38a0e5;
     --text: #000000;
   }
-} 
+}
 
 :root {
+  /* Shared variables */
+  --darkBlue: #131324;
+  --midBlue: #2b5b7b;
+  --spotBlue: #38a0e5;
+
+  /* Theme setup */
   color-scheme: light dark;
   color: var(--text);
   background-color: var(--background);
@@ -72,20 +40,26 @@
   height: 100%;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   font-family: 'InterRegular';
 }
 
-a:hover {
+a {
   color: var(--spotBlue);
+  font-family: 'InterLight';
+  text-decoration: none;
 }
 
-a,
+a:hover {
+  text-decoration: underline;
+}
+
 ul,
 li {
-  font-family: 'InterLight';
   color: var(--text);
+  font-family: 'InterLight';
   text-decoration: none;
 }
 

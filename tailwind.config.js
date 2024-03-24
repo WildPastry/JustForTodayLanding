@@ -5,12 +5,18 @@ export default {
     extend: {
       colors: {
         background: 'var(--background)',
+        darkBlue: 'var(--darkBlue)',
+        midBlue: 'var(--midBlue)',
         spotBlue: 'var(--spotBlue)',
         text: 'var(--text)'
       },
       fontFamily: {
-        display: ['SpaceMonoRegular'],
-        displayBold: ['SpaceMonoBold']
+        InterBold: ['InterBold'],
+        InterLight: ['InterLight'],
+        InterRegular: ['InterRegular'],
+        InterThin: ['InterThin'],
+        SpaceMonoBold: ['SpaceMonoBold'],
+        SpaceMonoRegular: ['SpaceMonoRegular']
       }
     }
   },

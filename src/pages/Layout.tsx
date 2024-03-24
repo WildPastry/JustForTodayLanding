@@ -1,7 +1,8 @@
+/* eslint-disable max-len */
 import Badges from '../components/Badges';
+import { FaStairs } from 'react-icons/fa6';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import { MdStairs } from 'react-icons/md';
 import Reflections from '../components/Reflections';
 import Steps from '../components/Steps';
 import Traditions from '../components/Traditions';
@@ -10,30 +11,18 @@ const Layout: React.FC = (): JSX.Element => {
   return (
     <main className='h-full w-full flex flex-col'>
       <Header />
-      {/* Flex content */}
-      <section className='flex-auto p-7'>
-        {/* Top section */}
-        <div className='flex flex-row w-full justify-between'>
-          <div>
-            <Reflections />
-          </div>
+      <section className='flex-auto p-7 max-w-screen-xl m-auto'>
+        <div className='mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-16'>
+          <Reflections />
           <div>
             <Steps />
-            <MdStairs fontSize={200} />
+            <FaStairs fontSize={250} />
           </div>
-        </div>
-        {/* Bottom section */}
-        <div className='flex flex-row w-full justify-between'>
-          <div>
-            <Traditions />
-          </div>
-          <div>
-            <Badges />
-          </div>
+          <Traditions />
         </div>
       </section>
-      {/* Footer */}
       <div className='shrink-0'>
+        <Badges />
         <Footer />
       </div>
     </main>
