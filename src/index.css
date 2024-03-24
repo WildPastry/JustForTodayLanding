@@ -24,6 +24,13 @@
 }
 
 @font-face {
+  font-family: 'InterLight';
+  src:
+    local('InterLight'),
+    url(./assets/fonts/Inter-Light.ttf) format('truetype');
+}
+
+@font-face {
   font-family: 'InterRegular';
   src:
     local('InterRegular'),
@@ -39,17 +46,17 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: hsl(240, 31%, 25%);
-    --link: hsl(204, 77%, 56%);
-    --text: hsl(0, 0%, 100%);
+    --background: #2c2c54;
+    --spotBlue: #38a0e5;
+    --text: #ffffff;
   }
 } 
 
 @media (prefers-color-scheme: light) {
   :root {
-    --background: hsl(0, 0%, 100%);
-    --link: hsl(204, 77%, 56%);
-    --text: hsl(0, 0%, 0%);
+    --background: #ffffff;
+    --spotBlue: #38a0e5;
+    --text: #000000;
   }
 } 
 
@@ -71,13 +78,13 @@ html, body {
 }
 
 a:hover {
-  color: var(--link);
+  color: var(--spotBlue);
 }
 
 a,
 ul,
 li {
-  font-family: 'InterThin';
+  font-family: 'InterLight';
   color: var(--text);
   text-decoration: none;
 }

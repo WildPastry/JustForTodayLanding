@@ -5,8 +5,12 @@ export default {
     extend: {
       colors: {
         background: 'var(--background)',
-        link: 'var(--link)',
+        spotBlue: 'var(--spotBlue)',
         text: 'var(--text)'
+      },
+      fontFamily: {
+        display: ['SpaceMonoRegular'],
+        displayBold: ['SpaceMonoBold']
       }
     }
   },

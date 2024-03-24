@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 import { Link } from 'react-router-dom';
-import Logo from './Logo/Logo';
+import Logo from './Logo';
 
 const Header: React.FC = (): JSX.Element => {
   return (
