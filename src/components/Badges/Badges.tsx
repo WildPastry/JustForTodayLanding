@@ -4,7 +4,7 @@ import styles from './Badges.module.css';
 
 const Badges: React.FC = (): JSX.Element => {
   return (
-    <section className='bg-blue-700'>
+    <section>
       <div className={`${styles['store-badge']} me-5`}>
         <a
           className={styles['store-badge']}

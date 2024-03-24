@@ -1,15 +1,15 @@
-import { Close } from 'react-ionicons';
 import { Link } from 'react-router-dom';
+import { MdClose } from 'react-icons/md';
 import styles from './Support.module.css';
 
 const Support: React.FC = (): JSX.Element => {
   return (
-    <section className='h-full w-full flex flex-col p-7'>
-      <Link to={'/'}>
-        <Close color={'#ffffff'} title={'CLOSE'} height='50px' width='50px' />
-      </Link>
-      <div>
-        <h2>Support</h2>
+    <section className='h-full w-full flex flex-col px-7 py-3'>
+      <div className='flex flex-row items-center justify-between mb-10'>
+        <h2 className='text-3xl'>SUPPORT</h2>
+        <Link to={'/'}>
+          <MdClose fontSize={50} />
+        </Link>
       </div>
       <h3>Support for JFT:</h3>
       <div className={styles.divider} />

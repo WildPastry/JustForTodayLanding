@@ -11,7 +11,7 @@ const Layout: React.FC = (): JSX.Element => {
     <main className='h-full w-full flex flex-col'>
       <Header />
       {/* Flex content */}
-      <section className='flex-auto bg-purple-900 p-7'>
+      <section className='flex-auto p-7'>
         {/* Top section */}
         <div className='flex flex-row w-full justify-between'>
           <div>

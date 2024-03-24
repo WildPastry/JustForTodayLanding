@@ -4,17 +4,17 @@ import Logo from './Logo/Logo';
 
 const Header: React.FC = (): JSX.Element => {
   return (
-    <section className='bg-blue-900 flex flex-row items-center justify-between px-7 h-12'>
+    <section className='flex flex-row items-center justify-between px-7 py-3'>
       <Logo />
       <ul className='flex flex-row items-center'>
         <li>
-          <Link to={'/support'}>Support</Link>
+          <Link to={'/support'}>SUPPORT</Link>
         </li>
         <li className='mx-3'>
-          <Link to={'/privacy'}>Privacy</Link>
+          <Link to={'/privacy'}>PRIVACY</Link>
         </li>
         <li>
-          <Link to={'/terms'}>Terms</Link>
+          <Link to={'/terms'}>TERMS</Link>
         </li>
       </ul>
     </section>

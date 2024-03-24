@@ -1,15 +1,15 @@
-import { Close } from 'react-ionicons';
 import { Link } from 'react-router-dom';
+import { MdClose } from 'react-icons/md';
 import styles from './Privacy.module.css';
 
 const Privacy: React.FC = (): JSX.Element => {
   return (
-    <section className='h-full w-full flex flex-col p-7'>
-      <Link to={'/'}>
-        <Close color={'#ffffff'} title={'CLOSE'} height='50px' width='50px' />
-      </Link>
-      <div>
-        <h2>PRIVACY STATEMENT</h2>
+    <section className='h-full w-full flex flex-col px-7 py-3'>
+      <div className='flex flex-row items-center justify-between mb-10'>
+        <h2 className='text-3xl'>PRIVACY STATEMENT</h2>
+        <Link to={'/'}>
+          <MdClose fontSize={50} />
+        </Link>
       </div>
       <p>
         Privacy Statement <b>JustForToday</b> respects your privacy and is
