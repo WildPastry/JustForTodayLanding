@@ -11,7 +11,7 @@ const Header: React.FC = (): JSX.Element => {
           <li>
             <Link to={'/support'}>SUPPORT</Link>
           </li>
-          <li className='mx-3'>
+          <li className='mx-5'>
             <Link to={'/privacy'}>PRIVACY</Link>
           </li>
           <li>

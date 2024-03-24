@@ -1,5 +1,12 @@
-const Rectangle: React.FC = (): JSX.Element => {
-  return <div className='absolute bg-midBlue top-5 h-5 w-64' />;
+export interface IRectangle {
+  colour: string;
+  width: string;
+}
+
+const Rectangle: React.FC<IRectangle> = (props: IRectangle): JSX.Element => {
+  return (
+    <div className={`absolute top-5 h-5 bg-${props.colour} w-${props.width}`} />
+  );
 };
 
 export default Rectangle;

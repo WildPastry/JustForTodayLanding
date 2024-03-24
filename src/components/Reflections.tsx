@@ -3,7 +3,7 @@ import Rectangle from './Rectangle';
 const Reflections: React.FC = (): JSX.Element => {
   return (
     <section className='relative'>
-      <Rectangle />
+      <Rectangle colour='midBlue' width='64' />
       <h2 className='text-3xl mb-3 z-10 relative'>Reflections</h2>
       <p>
         Drawing from the principles of the Twelve Steps and Twelve Traditions of

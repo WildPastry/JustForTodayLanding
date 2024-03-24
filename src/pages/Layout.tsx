@@ -12,11 +12,11 @@ const Layout: React.FC = (): JSX.Element => {
     <main className='h-full w-full flex flex-col'>
       <Header />
       <section className='flex-auto p-7 max-w-screen-xl m-auto'>
-        <div className='mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-16'>
+        <div className='mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-16 items-center'>
           <Reflections />
           <div>
             <Steps />
-            <FaStairs fontSize={250} />
+            <FaStairs className='m-auto' fontSize={250} />
           </div>
           <Traditions />
         </div>
