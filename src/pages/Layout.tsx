@@ -1,34 +1,38 @@
 import Badges from '../components/Badges/Badges';
 import Footer from '../components/Footer';
-import Logo from '../components/Logo/Logo';
+import Header from '../components/Header';
+import { MdStairs } from 'react-icons/md';
 import Reflections from '../components/Reflections';
 import Steps from '../components/Steps';
 import Traditions from '../components/Traditions';
 
 const Layout: React.FC = (): JSX.Element => {
   return (
-    <main className='h-full w-full flex flex-col p-7'>
-      <div className='flex-auto bg-purple-900'>
+    <main className='h-full w-full flex flex-col'>
+      <Header />
+      {/* Flex content */}
+      <section className='flex-auto bg-purple-900 p-7'>
+        {/* Top section */}
         <div className='flex flex-row w-full justify-between'>
-          <div className='w-1/3'>
+          <div>
             <Reflections />
           </div>
-          <div className='w-1/3'>
+          <div>
             <Steps />
+            <MdStairs fontSize={200} />
           </div>
         </div>
-        <div>
-          <Logo />
-        </div>
+        {/* Bottom section */}
         <div className='flex flex-row w-full justify-between'>
-          <div className='w-1/3'>
+          <div>
             <Traditions />
           </div>
-          <div className='w-1/3'>
+          <div>
             <Badges />
           </div>
         </div>
-      </div>
+      </section>
+      {/* Footer */}
       <div className='shrink-0'>
         <Footer />
       </div>

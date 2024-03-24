@@ -2,7 +2,7 @@
 const Reflections: React.FC = (): JSX.Element => {
   return (
     <section className='bg-blue-900'>
-      <h2 className='text-3xl'>Reflections</h2>
+      <h2 className='text-3xl mb-3'>Reflections</h2>
       <p>
         Drawing from the principles of the Twelve Steps and Twelve Traditions of
         Alcoholics Anonymous, daily reflections delve into themes such as

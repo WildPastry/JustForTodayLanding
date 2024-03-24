@@ -1,27 +1,13 @@
+/* eslint-disable max-len */
 import { Link } from 'react-router-dom';
 
 const Footer: React.FC = (): JSX.Element => {
   // Get current date
   const currentDate: number = new Date().getFullYear();
   return (
-    <section className='bg-blue-900 flex flex-row justify-between'>
-      <ul className='flex flex-row items-center'>
-        <li className='mr-3'>
-          <Link to={'/support'}>Support</Link>
-        </li>
-        <li className='mr-3'>
-          <Link to={'/privacy'}>Privacy</Link>
-        </li>
-        <li className='mr-3'>
-          <Link to={'/terms'}>Terms</Link>
-        </li>
-      </ul>
+    <section className='bg-blue-900 flex flex-row items-center justify-between px-7 h-12'>
+      <p>link</p>
       <div>
-        <p>
-          <a href='mailto:justfortoday@mikeparker.co.nz'>
-            justfortoday@mikeparker.co.nz
-          </a>
-        </p>
         <p>
           © {currentDate}
           <a
