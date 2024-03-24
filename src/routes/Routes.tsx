@@ -1,6 +1,6 @@
 import Layout from '../pages/Layout';
-import Privacy from '../pages/Privacy/Privacy';
-import Support from '../pages/Support/Support';
+import Privacy from '../pages/Privacy';
+import Support from '../pages/Support';
 import Terms from '../pages/Terms';
 
 const routesConfig = [

@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { MdClose } from 'react-icons/md';
-import styles from './Support.module.css';
 
 const Support: React.FC = (): JSX.Element => {
   return (
@@ -12,9 +11,9 @@ const Support: React.FC = (): JSX.Element => {
         </Link>
       </div>
       <h3>Support for JFT:</h3>
-      <div className={styles.divider} />
+      <hr className='h-px my-4 bg-gray-200 border-0 dark:bg-gray-700' />
       <p>Frequently asked questions:</p>
-      <div className={styles.divider} />
+      <hr className='h-px my-4 bg-gray-200 border-0 dark:bg-gray-700' />
       <p>Other questions:</p>
       <p>
         <a href='mailto:justfortoday@mikeparker.co.nz'>
