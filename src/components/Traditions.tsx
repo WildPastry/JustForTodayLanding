@@ -1,7 +1,10 @@
+import Rectangle from './Rectangle';
+
 const Traditions: React.FC = (): JSX.Element => {
   return (
-    <section>
-      <h2 className='bg-blue-700 text-3xl mb-3'>Traditions</h2>
+    <section className='relative'>
+      <Rectangle />
+      <h2 className='text-3xl mb-3 z-10 relative'>Traditions</h2>
       <p>
         Providing guidelines for relationships between the groups, members, the
         global Fellowship and society at large. Questions of finance, public

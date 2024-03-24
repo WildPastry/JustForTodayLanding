@@ -1,4 +1,4 @@
-import Badges from '../components/Badges/Badges';
+import Badges from '../components/Badges';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import { MdStairs } from 'react-icons/md';
