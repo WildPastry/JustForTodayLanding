@@ -3,8 +3,8 @@ import googeStoreBadge from './../assets/img/google.svg';
 
 const Badges: React.FC = (): JSX.Element => {
   return (
-    <section className='px-7 py-3 max-w-screen-xl m-auto'>
-      <div className='align-bottom inline-block me-5'>
+    <section className=''>
+      <div className='align-bottom inline-block me-10'>
         <a
           className='align-bottom inline-block'
           href='https://www.apple.com/nz/app-store/'
@@ -13,7 +13,7 @@ const Badges: React.FC = (): JSX.Element => {
           <img className='h-20' src={appleStoreBadge} alt='Apple Store Badge' />
         </a>
       </div>
-      <div className='align-bottom inline-block me-5'>
+      <div className='align-bottom inline-block me-10'>
         <a
           className='align-bottom inline-block'
           href='https://play.google.com/store/apps'

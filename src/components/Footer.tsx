@@ -5,7 +5,7 @@ const Footer: React.FC = (): JSX.Element => {
   return (
     <section className='flex flex-row items-center justify-between px-7 py-7 max-w-screen-xl m-auto'>
       <p>
-        Reference material ©
+        All reference material ©
         <a
           className='ml-1'
           href='https://www.aa.org/'
@@ -16,7 +16,7 @@ const Footer: React.FC = (): JSX.Element => {
       </p>
       <div>
         <p>
-          © {currentDate}
+          Website and App © {currentDate}
           <a
             className='ml-1'
             href='https://mikeparker.co.nz/'

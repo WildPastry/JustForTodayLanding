@@ -44,7 +44,7 @@ html,
 body {
   font-family: 'InterRegular';
   height: 100%;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.2px;
   line-height: 1.7em;
 }
 
@@ -66,11 +66,14 @@ li {
 }
 
 h1,
-h2,
+h2 {
+  font-family: 'SpaceMonoRegular';
+  letter-spacing: 0.3px;
+}
+
 h3,
 h4,
 h5 {
-  font-family: 'SpaceMonoRegular';
+  font-family: 'InterThin';
   letter-spacing: 0.3px;
-  margin: 0;
 }

@@ -9,7 +9,7 @@ const Terms: React.FC = (): JSX.Element => {
     <section className='bg-midBlue'>
       <div className='flex flex-col px-7 py-3 max-w-screen-xl m-auto'>
         <div className='flex flex-row items-center justify-between mb-16 relative'>
-          <Rectangle colour='darkBlue' width='64' />
+          <Rectangle colour='darkBlue' width='405' />
           <h2 className='text-3xl z-10 relative'>Terms and conditions</h2>
           <Link to={'/'}>
             <MdClose fontSize={35} />
