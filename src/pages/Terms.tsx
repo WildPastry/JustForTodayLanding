@@ -29,7 +29,7 @@ const Terms: React.FC = (): JSX.Element => {
           for any reason. We will alert you about any changes by email, and you
           waive any right to receive specific notice of each such change.
         </p>
-        <h5>INTELLECTUAL PROPERTY RIGHTS</h5>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>INTELLECTUAL PROPERTY RIGHTS</h3>
         <p>
           Unless otherwise indicated, the App is our proprietary property and
           all source code, databases, functionality, software, designs, audio,
@@ -51,14 +51,14 @@ const Terms: React.FC = (): JSX.Element => {
           not expressly granted to you in and to the App, the Content and the
           Marks.
         </p>
-        <h5>USER REGISTRATION</h5>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>USER REGISTRATION</h3>
         <p>
           You may register with the App. You agree to keep your password
           confidential and will be responsible for all use of your account and
           password. We do not have access to your password though this may be
           reset using the “Forgotten password” link.
         </p>
-        <h5>PROHIBITED ACTIVITIES</h5>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>PROHIBITED ACTIVITIES</h3>
         <p className='mb-1'>
           You may not access or use the App for any purpose other than that for
           which we make the App available. The App may not be used in connection
@@ -169,7 +169,7 @@ const Terms: React.FC = (): JSX.Element => {
           </li>
         </ol>
 
-        <h5>MOBILE APPLICATION LICENSE</h5>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>MOBILE APPLICATION LICENSE</h3>
         <p className='mb-1'>
           Use License If you access the App via a mobile application, then we
           grant you a revocable, non-exclusive, non-transferable, limited right
@@ -209,7 +209,7 @@ const Terms: React.FC = (): JSX.Element => {
           </li>
         </ol>
 
-        <h5>APPLE AND ANDROID DEVICES</h5>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>APPLE AND ANDROID DEVICES</h3>
         <p className='mb-1'>
           The following terms apply when you use a mobile application obtained
           from either the Apple Store or Google Play (each an “App Distributor”)
@@ -265,7 +265,7 @@ const Terms: React.FC = (): JSX.Element => {
           </li>
         </ol>
 
-        <h5>SUBMISSIONS</h5>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>SUBMISSIONS</h3>
         <p>
           You acknowledge and agree that any questions, comments, suggestions,
           ideas, feedback, or other information regarding the App
@@ -281,7 +281,7 @@ const Terms: React.FC = (): JSX.Element => {
           alleged or actual infringement or misappropriation of any proprietary
           right in your Submissions.
         </p>
-        <h5>ADVERTISERS</h5>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>ADVERTISERS</h3>
         <p>
           We allow advertisers to display their advertisements and other
           information in certain areas of the App, such as sidebar
@@ -296,7 +296,7 @@ const Terms: React.FC = (): JSX.Element => {
           relationship with advertisers.
         </p>
 
-        <h5>APP MANAGEMENT</h5>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>APP MANAGEMENT</h3>
         <p className='mb-1'>
           We reserve the right, but not the obligation, to:
         </p>
@@ -328,7 +328,7 @@ const Terms: React.FC = (): JSX.Element => {
             App.
           </li>
         </ol>
-        <h5>PRIVACY POLICY</h5>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>PRIVACY POLICY</h3>
         <p>
           We care about data privacy and security. Please review our Privacy
           Policy. By using the App, you agree to be bound by our Privacy Policy,
@@ -341,7 +341,7 @@ const Terms: React.FC = (): JSX.Element => {
           to the United States, and you expressly consent to have your data
           transferred to and processed in the United States.
         </p>
-        <h5>COPYRIGHT INFRINGEMENTS</h5>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>COPYRIGHT INFRINGEMENTS</h3>
         <p>
           We respect the intellectual property rights of others. If you believe
           that any material available on or through the App infringes upon any
@@ -354,7 +354,7 @@ const Terms: React.FC = (): JSX.Element => {
           sure that material located on or linked to by the App infringes your
           copyright, you should consider first contacting an attorney.
         </p>
-        <h5>TERM AND TERMINATION</h5>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>TERM AND TERMINATION</h3>
         <p>
           These Terms and Conditions shall remain in full force and effect while
           you use the App. WITHOUT LIMITING ANY OTHER PROVISION OF THESE TERMS
@@ -374,7 +374,7 @@ const Terms: React.FC = (): JSX.Element => {
           right to take appropriate legal action, including without limitation
           pursuing civil, criminal, and injunctive redress.
         </p>
-        <h5>MODIFICATIONS AND INTERRUPTIONS</h5>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>MODIFICATIONS AND INTERRUPTIONS</h3>
         <p>
           We reserve the right to change, modify, or remove the contents of the
           App at any time or for any reason at our sole discretion without
@@ -394,7 +394,7 @@ const Terms: React.FC = (): JSX.Element => {
           will be construed to obligate us to maintain and support the App or to
           supply any corrections, updates, or releases in connection therewith.
         </p>
-        <h5>CORRECTIONS</h5>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>CORRECTIONS</h3>
         <p>
           There may be information on the App that contains typographical
           errors, inaccuracies, or omissions that may relate to the App,
@@ -403,7 +403,7 @@ const Terms: React.FC = (): JSX.Element => {
           or omissions and to change or update the information on the App at any
           time, without prior notice.
         </p>
-        <h5>DISCLAIMER</h5>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>DISCLAIMER</h3>
         <p>
           THE APP IS PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT
           YOUR USE OF THE APP AND OUR SERVICES WILL BE AT YOUR SOLE RISK. TO THE
@@ -435,7 +435,7 @@ const Terms: React.FC = (): JSX.Element => {
           ENVIRONMENT, YOU SHOULD USE YOUR BEST JUDGMENT AND EXERCISE CAUTION
           WHERE APPROPRIATE.
         </p>
-        <h5>LIMITATIONS OF LIABILITY</h5>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>LIMITATIONS OF LIABILITY</h3>
         <p>
           IN NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE
           TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL,
@@ -444,7 +444,7 @@ const Terms: React.FC = (): JSX.Element => {
           USE OF THE APP, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF
           SUCH DAMAGES.
         </p>
-        <h5>USER DATA</h5>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>USER DATA</h3>
         <p>
           We will maintain certain data that you transmit to the App for the
           purpose of managing the App, as well as data relating to your use of
@@ -455,7 +455,7 @@ const Terms: React.FC = (): JSX.Element => {
           data, and you hereby waive any right of action against us arising from
           any such loss or corruption of such data.
         </p>
-        <h5>ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES</h5>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES</h3>
         <p>
           Visiting the App, sending us emails, and completing online forms
           constitute electronic communications. You consent to receive
@@ -464,12 +464,12 @@ const Terms: React.FC = (): JSX.Element => {
           electronically, via email and on the App, satisfy any legal
           requirement that such communication be in writing.
         </p>
-        <h5>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>
           YOU HEREBY AGREE TO THE USE OF ELECTRONIC SIGNATURES, CONTRACTS,
           ORDERS, AND OTHER RECORDS, AND TO ELECTRONIC DELIVERY OF NOTICES,
           POLICIES, AND RECORDS OF TRANSACTIONS INITIATED OR COMPLETED BY US OR
           VIA THE APP.
-        </h5>
+        </h3>
         <p>
           You hereby waive any rights or requirements under any statutes,
           regulations, rules, ordinances, or other laws in any jurisdiction
@@ -477,7 +477,7 @@ const Terms: React.FC = (): JSX.Element => {
           non-electronic records, or to payments or the granting of credits by
           any means other than electronic means.
         </p>
-        <h5>MISCELLANEOUS</h5>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>MISCELLANEOUS</h3>
         <p>
           These Terms and Conditions and any policies or operating rules posted
           by us on the App constitute the entire agreement and understanding

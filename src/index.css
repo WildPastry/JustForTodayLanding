@@ -66,14 +66,8 @@ li {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: 'SpaceMonoRegular';
-  letter-spacing: 0.3px;
-}
-
-h3,
-h4,
-h5 {
-  font-family: 'InterThin';
   letter-spacing: 0.3px;
 }
