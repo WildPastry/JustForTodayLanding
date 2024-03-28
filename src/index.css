@@ -7,30 +7,32 @@
 @tailwind utilities;
 
 /* Dark variables */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #2c2c54;
     --text: #ffffff;
   }
-}
+} */
 
 /* Light variables */
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     --background: #ffffff;
     --text: #000000;
   }
-}
+} */
 
 :root {
   /* Shared variables */
+  --background: #2c2c54;
+  --text: #ffffff;
   --darkBlue: #131324;
   --midBlue: #2b5b7b;
-  --spotBlue: #38a0e5;
+  --spotBlue: #47a0d9;
 
   /* Theme setup */
   background-color: var(--background);
-  color-scheme: light dark;
+  /* color-scheme: light dark; */
   color: var(--text);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -57,7 +59,7 @@ a {
 a:hover {
   text-decoration-color: var(--text) !important;
   text-decoration: underline;
-  text-underline-offset: 3px;
+  text-underline-offset: 4px;
 }
 
 ul,
@@ -68,8 +70,12 @@ li {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: 'SpaceMonoRegular';
+  letter-spacing: 0.3px;
+}
+
+h3 {
+  font-family: 'InterBold';
   letter-spacing: 0.3px;
 }

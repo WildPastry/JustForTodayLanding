@@ -14,8 +14,6 @@ const Support: React.FC = (): JSX.Element => {
             <MdClose fontSize={35} />
           </Link>
         </div>
-        <h3>Support for JFT:</h3>
-        <hr className='h-px my-4 bg-gray-200 border-0 dark:bg-gray-700' />
         <p>Frequently asked questions:</p>
         <hr className='h-px my-4 bg-gray-200 border-0 dark:bg-gray-700' />
         <p>Other questions:</p>

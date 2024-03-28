@@ -6,12 +6,17 @@ const Header: React.FC = (): JSX.Element => {
   return (
     <section className='bg-darkBlue'>
       <div className='flex flex-row items-center justify-between px-7 py-3 max-w-screen-xl m-auto'>
-        <Logo />
-        <ul className='flex flex-row items-center'>
+        <Link to={'/home'}>
+          <Logo />
+        </Link>
+        <ul className='flex flex-row items-center gap-4'>
+          <li>
+            <Link to={'/home'}>HOME</Link>
+          </li>
           <li>
             <Link to={'/support'}>SUPPORT</Link>
           </li>
-          <li className='mx-5'>
+          <li>
             <Link to={'/privacy'}>PRIVACY</Link>
           </li>
           <li>

@@ -16,7 +16,7 @@ const Footer: React.FC = (): JSX.Element => {
       </p>
       <div>
         <p>
-          Website and App © {currentDate}
+          © {currentDate}
           <a
             className='ml-1'
             href='https://mikeparker.co.nz/'

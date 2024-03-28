@@ -22,7 +22,7 @@ const Privacy: React.FC = (): JSX.Element => {
         <hr className='h-px my-10 bg-gray-200 border-0 dark:bg-gray-700' />
         <div className='w-1/2 m-auto'>
           <div className='mb-16'>
-            <h2 className='text-3xl text-spotBlue mb-3'>Data Collection</h2>
+            <h3 className='text-3xl text-spotBlue mb-3'>Data Collection</h3>
             <p>
               We want to reassure our users that JustForToday does not collect
               any personal data or information from you while you use our mobile
@@ -32,14 +32,14 @@ const Privacy: React.FC = (): JSX.Element => {
             </p>
           </div>
           <div className='mb-16'>
-            <h2 className='text-3xl text-spotBlue mb-3'>Data Usage</h2>
+            <h3 className='text-3xl text-spotBlue mb-3'>Data Usage</h3>
             <p>
               Since we do not collect any data, we do not use your personal
               information for any purpose.
             </p>
           </div>
           <div className='mb-16'>
-            <h2 className='text-3xl text-spotBlue mb-3'>Data Sharing</h2>
+            <h3 className='text-3xl text-spotBlue mb-3'>Data Sharing</h3>
             <p>
               We do not share any data, personal or otherwise, with third
               parties. Your information is not disclosed, sold, or rented to any
@@ -47,14 +47,14 @@ const Privacy: React.FC = (): JSX.Element => {
             </p>
           </div>
           <div className='mb-16'>
-            <h2 className='text-3xl text-spotBlue mb-3'>Changes</h2>
+            <h3 className='text-3xl text-spotBlue mb-3'>Changes</h3>
             <p>
               We reserve the right to update this Privacy Statement from time to
               time. Any changes will be reflected on this page.
             </p>
           </div>
           <div className='mb-16'>
-            <h2 className='text-3xl text-spotBlue mb-3'>Contact Us</h2>
+            <h3 className='text-3xl text-spotBlue mb-3'>Contact Us</h3>
             <p>
               If you have any questions or concerns regarding this Privacy
               Statement or the privacy practices of <b>JustForToday</b>, please
