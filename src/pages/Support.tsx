@@ -5,8 +5,8 @@ import Rectangle from '../components/Rectangle';
 
 const Support: React.FC = (): JSX.Element => {
   return (
-    <section className='bg-darkBlue h-full'>
-      <div className='flex flex-col px-7 py-3 max-w-screen-xl m-auto'>
+    <section>
+      <div className='flex flex-col max-w-screen-xl m-auto'>
         <div className='flex flex-row items-center justify-between mb-16 relative'>
           <Rectangle colour='midBlue' width='155' />
           <h2 className='text-3xl z-10 relative'>Support</h2>

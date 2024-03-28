@@ -1,26 +1,26 @@
 /* eslint-disable max-len */
-import { Link } from 'react-router-dom';
 import Logo from './Logo';
+import { NavLink } from 'react-router-dom';
 
 const Header: React.FC = (): JSX.Element => {
   return (
     <section className='bg-darkBlue'>
       <div className='flex flex-row items-center justify-between px-7 py-3 max-w-screen-xl m-auto'>
-        <Link to={'/home'}>
+        <NavLink to={'/home'}>
           <Logo />
-        </Link>
+        </NavLink>
         <ul className='flex flex-row items-center gap-4'>
           <li>
-            <Link to={'/home'}>HOME</Link>
+            <NavLink to={'/home'}>HOME</NavLink>
           </li>
           <li>
-            <Link to={'/support'}>SUPPORT</Link>
+            <NavLink to={'/support'}>SUPPORT</NavLink>
           </li>
           <li>
-            <Link to={'/privacy'}>PRIVACY</Link>
+            <NavLink to={'/privacy'}>PRIVACY</NavLink>
           </li>
           <li>
-            <Link to={'/terms'}>TERMS</Link>
+            <NavLink to={'/terms'}>TERMS</NavLink>
           </li>
         </ul>
       </div>

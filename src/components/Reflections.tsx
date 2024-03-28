@@ -4,7 +4,7 @@ const Reflections: React.FC = (): JSX.Element => {
   return (
     <section className='relative'>
       <Rectangle colour='midBlue' width='240' />
-      <h2 className='text-3xl mb-3 z-10 relative'>Reflections</h2>
+      <h2 className='text-3xl mb-5 z-10 relative'>Reflections</h2>
       <p>
         Drawing from the principles of the Twelve Steps and Twelve Traditions of
         Alcoholics Anonymous, daily reflections delve into themes such as

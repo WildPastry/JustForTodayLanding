@@ -25,10 +25,10 @@
 :root {
   /* Shared variables */
   --background: #2c2c54;
-  --text: #ffffff;
   --darkBlue: #131324;
   --midBlue: #2b5b7b;
   --spotBlue: #47a0d9;
+  --text: #ffffff;
 
   /* Theme setup */
   background-color: var(--background);
@@ -60,6 +60,16 @@ a:hover {
   text-decoration-color: var(--text) !important;
   text-decoration: underline;
   text-underline-offset: 4px;
+}
+
+a.active {
+  color: var(--text);
+}
+
+a.active:hover {
+  color: var(--text);
+  cursor: default;
+  text-decoration: none;
 }
 
 ul,
