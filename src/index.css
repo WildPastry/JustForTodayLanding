@@ -55,7 +55,9 @@ a {
 }
 
 a:hover {
+  text-decoration-color: var(--text) !important;
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 ul,

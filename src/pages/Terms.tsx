@@ -15,21 +15,26 @@ const Terms: React.FC = (): JSX.Element => {
             <MdClose fontSize={35} />
           </Link>
         </div>
-        <p>
+        <p className='w-1/2'>
           These Terms and Conditions constitute a legally binding agreement made
           between you, whether personally or on behalf of an entity (“you”) and
           JUSTFORTODAY (“we,” “us” or “our”), concerning your access to and use
           of the JUSTFORTODAY mobile application (collectively, the “App”). You
           agree that by accessing the App, you have read, understood, and agree
-          to be bound by all of these Terms and Conditions. If you do not agree
-          with all of these Terms and Conditions, then you are expressly
-          prohibited from using the App and you must discontinue use
-          immediately. We reserve the right, in our sole discretion, to make
+          to be bound by all of these Terms and Conditions.
+        </p>
+        <p className='w-1/2 mt-3'>
+          If you do not agree with all of these Terms and Conditions, then you
+          are expressly prohibited from using the App and you must discontinue
+          use immediately. We reserve the right, in our sole discretion, to make
           changes or modifications to these Terms and Conditions at any time and
           for any reason. We will alert you about any changes by email, and you
           waive any right to receive specific notice of each such change.
         </p>
-        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>INTELLECTUAL PROPERTY RIGHTS</h3>
+        <hr className='h-px my-10 bg-gray-200 border-0 dark:bg-gray-700' />
+        <h3 className='text-3xl text-darkBlue mb-3'>
+          INTELLECTUAL PROPERTY RIGHTS
+        </h3>
         <p>
           Unless otherwise indicated, the App is our proprietary property and
           all source code, databases, functionality, software, designs, audio,
@@ -58,7 +63,9 @@ const Terms: React.FC = (): JSX.Element => {
           password. We do not have access to your password though this may be
           reset using the “Forgotten password” link.
         </p>
-        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>PROHIBITED ACTIVITIES</h3>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>
+          PROHIBITED ACTIVITIES
+        </h3>
         <p className='mb-1'>
           You may not access or use the App for any purpose other than that for
           which we make the App available. The App may not be used in connection
@@ -169,7 +176,9 @@ const Terms: React.FC = (): JSX.Element => {
           </li>
         </ol>
 
-        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>MOBILE APPLICATION LICENSE</h3>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>
+          MOBILE APPLICATION LICENSE
+        </h3>
         <p className='mb-1'>
           Use License If you access the App via a mobile application, then we
           grant you a revocable, non-exclusive, non-transferable, limited right
@@ -209,7 +218,9 @@ const Terms: React.FC = (): JSX.Element => {
           </li>
         </ol>
 
-        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>APPLE AND ANDROID DEVICES</h3>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>
+          APPLE AND ANDROID DEVICES
+        </h3>
         <p className='mb-1'>
           The following terms apply when you use a mobile application obtained
           from either the Apple Store or Google Play (each an “App Distributor”)
@@ -341,7 +352,9 @@ const Terms: React.FC = (): JSX.Element => {
           to the United States, and you expressly consent to have your data
           transferred to and processed in the United States.
         </p>
-        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>COPYRIGHT INFRINGEMENTS</h3>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>
+          COPYRIGHT INFRINGEMENTS
+        </h3>
         <p>
           We respect the intellectual property rights of others. If you believe
           that any material available on or through the App infringes upon any
@@ -354,7 +367,9 @@ const Terms: React.FC = (): JSX.Element => {
           sure that material located on or linked to by the App infringes your
           copyright, you should consider first contacting an attorney.
         </p>
-        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>TERM AND TERMINATION</h3>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>
+          TERM AND TERMINATION
+        </h3>
         <p>
           These Terms and Conditions shall remain in full force and effect while
           you use the App. WITHOUT LIMITING ANY OTHER PROVISION OF THESE TERMS
@@ -374,7 +389,9 @@ const Terms: React.FC = (): JSX.Element => {
           right to take appropriate legal action, including without limitation
           pursuing civil, criminal, and injunctive redress.
         </p>
-        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>MODIFICATIONS AND INTERRUPTIONS</h3>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>
+          MODIFICATIONS AND INTERRUPTIONS
+        </h3>
         <p>
           We reserve the right to change, modify, or remove the contents of the
           App at any time or for any reason at our sole discretion without
@@ -435,7 +452,9 @@ const Terms: React.FC = (): JSX.Element => {
           ENVIRONMENT, YOU SHOULD USE YOUR BEST JUDGMENT AND EXERCISE CAUTION
           WHERE APPROPRIATE.
         </p>
-        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>LIMITATIONS OF LIABILITY</h3>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>
+          LIMITATIONS OF LIABILITY
+        </h3>
         <p>
           IN NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE
           TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL,
@@ -455,7 +474,9 @@ const Terms: React.FC = (): JSX.Element => {
           data, and you hereby waive any right of action against us arising from
           any such loss or corruption of such data.
         </p>
-        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES</h3>
+        <h3 className='text-3xl text-darkBlue mb-3 mt-8'>
+          ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES
+        </h3>
         <p>
           Visiting the App, sending us emails, and completing online forms
           constitute electronic communications. You consent to receive
