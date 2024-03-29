@@ -16,6 +16,9 @@ export default {
         InterRegular: ['InterRegular'],
         SpaceMonoBold: ['SpaceMonoBold'],
         SpaceMonoRegular: ['SpaceMonoRegular']
+      },
+      width: {
+        700: '700px'
       }
     }
   },

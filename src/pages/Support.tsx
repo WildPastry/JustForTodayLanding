@@ -1,18 +1,11 @@
 const Support: React.FC = (): JSX.Element => {
   return (
-    <section className='flex flex-col'>
-      <div className='my-8 m-auto'>
-        <h2 className='text-2xl'>FAQ</h2>
+    <section className='w-700 m-auto'>
+      <div className='my-10'>
+        <h2 className='text-2xl text-center'>FAQ</h2>
       </div>
-      <p className='w-1/2 m-auto text-xl leading-8'>
-        For any support or questions please contact the team
-        <a className='ml-1' href='mailto:justfortoday@mikeparker.co.nz'>
-          here
-        </a>
-        .
-      </p>
-      <hr className='h-px my-10 bg-gray-600 border-0 w-1/2 m-auto' />
-      {/* <div className='w-1/2 m-auto'>
+      <hr className='h-px my-10 bg-gray-600 border-0' />
+      {/* <div className='w-700 m-auto'>
         <div className='mb-10'>
           <h3 className='text-lg text-spotBlue mb-2'>Data Collection</h3>
           <p className='text-md'>

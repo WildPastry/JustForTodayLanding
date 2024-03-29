@@ -1,16 +1,16 @@
 const Privacy: React.FC = (): JSX.Element => {
   return (
-    <section className='flex flex-col'>
-      <div className='my-8 m-auto'>
-        <h2 className='text-2xl'>Privacy statement</h2>
+    <section className='w-700 m-auto'>
+      <div className='my-10'>
+        <h2 className='text-2xl text-center'>Privacy statement</h2>
       </div>
-      <p className='w-1/2 m-auto text-xl leading-8'>
+      <p className='text-xl leading-8'>
         JustForToday respects your privacy and is committed to protecting your
         personal information. This Privacy Statement outlines how we collect,
         use, and safeguard your data when you use our mobile application.
       </p>
-      <hr className='h-px my-10 bg-gray-600 border-0 w-1/2 m-auto' />
-      <div className='w-1/2 m-auto'>
+      <hr className='h-px my-10 bg-gray-600 border-0' />
+      <div>
         <div className='mb-10'>
           <h3 className='text-lg text-spotBlue mb-2'>Data Collection</h3>
           <p className='text-md'>
@@ -45,7 +45,7 @@ const Privacy: React.FC = (): JSX.Element => {
         </div>
         <div className='mb-10'>
           <h3 className='text-lg text-spotBlue mb-2'>Contact Us</h3>
-          <p className='text-md'>
+          <p className='text-md mb-2'>
             If you have any questions or concerns regarding this Privacy
             Statement or the privacy practices of JustForToday, please contact
             us
@@ -54,7 +54,7 @@ const Privacy: React.FC = (): JSX.Element => {
             </a>
             .
           </p>
-          <p className='mt-3'>
+          <p className='text-md'>
             By using JustForToday, you signify your acceptance of this Privacy
             Statement. If you do not agree to this Privacy Statement, please
             refrain from using our mobile application. Thank you for trusting
