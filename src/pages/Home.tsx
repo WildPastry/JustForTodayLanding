@@ -8,11 +8,15 @@ import Traditions from '../components/Traditions';
 const Home: React.FC = (): JSX.Element => {
   return (
     <section>
-      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-16 items-center mt-16'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-16 items-center'>
         <Reflections />
-        <div>
+        <div className='relative'>
           <Steps />
-          <FaStairs className='m-auto' fontSize={300} />
+          <FaStairs className='m-auto z-10 relative' fontSize={300} />
+          <FaStairs
+            className='absolute text-darkBlue left-4 top-32'
+            fontSize={300}
+          />
         </div>
         <Traditions />
       </div>
