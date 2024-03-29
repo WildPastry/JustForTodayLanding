@@ -14,13 +14,13 @@ const Home: React.FC = (): JSX.Element => {
           <Steps />
           <FaStairs className='m-auto z-10 relative' fontSize={300} />
           <FaStairs
-            className='absolute text-darkBlue left-4 top-32'
+            className='absolute text-darkBlue left-4 top-44'
             fontSize={300}
           />
         </div>
         <Traditions />
       </div>
-      <div className='flex justify-center items-center mt-8'>
+      <div className='flex justify-center items-center mt-10'>
         <FaArrowRight className='text-spotBlue mr-10' fontSize={60} />
         <Badges />
       </div>
