@@ -1,16 +1,13 @@
 /* eslint-disable max-len */
 /* eslint-disable max-lines-per-function */
-import Rectangle from '../components/Rectangle';
-
 const Terms: React.FC = (): JSX.Element => {
   return (
     <section>
-      <div className='flex flex-col max-w-screen-xl m-auto'>
-        <div className='mb-8 relative'>
-          <Rectangle colour='darkBlue' width='405' />
-          <h2 className='text-3xl z-10 relative'>Terms and conditions</h2>
+      <div className='flex flex-col'>
+        <div className='my-8 m-auto'>
+          <h2 className='text-2xl'>Terms and conditions</h2>
         </div>
-        <p className='w-1/2'>
+        <p className='w-1/2 m-auto text-xl leading-8'>
           These Terms and Conditions constitute a legally binding agreement made
           between you, whether personally or on behalf of an entity (“you”) and
           JUSTFORTODAY (“we,” “us” or “our”), concerning your access to and use
@@ -18,7 +15,7 @@ const Terms: React.FC = (): JSX.Element => {
           agree that by accessing the App, you have read, understood, and agree
           to be bound by all of these Terms and Conditions.
         </p>
-        <p className='w-1/2 mt-3'>
+        <p className='w-1/2 mt-3 m-auto text-xl leading-8'>
           If you do not agree with all of these Terms and Conditions, then you
           are expressly prohibited from using the App and you must discontinue
           use immediately. We reserve the right, in our sole discretion, to make
@@ -26,11 +23,11 @@ const Terms: React.FC = (): JSX.Element => {
           for any reason. We will alert you about any changes by email, and you
           waive any right to receive specific notice of each such change.
         </p>
-        <hr className='h-px my-10 bg-gray-600 border-0' />
-        <h3 className='text-3xl text-spotBlue mb-3'>
+        <hr className='h-px my-10 bg-gray-600 border-0 w-1/2 m-auto' />
+        <h3 className='text-lg text-spotBlue mb-2'>
           INTELLECTUAL PROPERTY RIGHTS
         </h3>
-        <p>
+        <p className='text-md'>
           Unless otherwise indicated, the App is our proprietary property and
           all source code, databases, functionality, software, designs, audio,
           video, text, photographs, and graphics on the App (collectively, the
@@ -51,14 +48,14 @@ const Terms: React.FC = (): JSX.Element => {
           not expressly granted to you in and to the App, the Content and the
           Marks.
         </p>
-        <h3 className='text-3xl text-spotBlue mb-3 mt-8'>USER REGISTRATION</h3>
-        <p>
+        <h3 className='text-lg text-spotBlue mb-2 mt-8'>USER REGISTRATION</h3>
+        <p className='text-md'>
           You may register with the App. You agree to keep your password
           confidential and will be responsible for all use of your account and
           password. We do not have access to your password though this may be
           reset using the “Forgotten password” link.
         </p>
-        <h3 className='text-3xl text-spotBlue mb-3 mt-8'>
+        <h3 className='text-lg text-spotBlue mb-2 mt-8'>
           PROHIBITED ACTIVITIES
         </h3>
         <p className='mb-1'>
@@ -171,7 +168,7 @@ const Terms: React.FC = (): JSX.Element => {
           </li>
         </ol>
 
-        <h3 className='text-3xl text-spotBlue mb-3 mt-8'>
+        <h3 className='text-lg text-spotBlue mb-2 mt-8'>
           MOBILE APPLICATION LICENSE
         </h3>
         <p className='mb-1'>
@@ -213,7 +210,7 @@ const Terms: React.FC = (): JSX.Element => {
           </li>
         </ol>
 
-        <h3 className='text-3xl text-spotBlue mb-3 mt-8'>
+        <h3 className='text-lg text-spotBlue mb-2 mt-8'>
           APPLE AND ANDROID DEVICES
         </h3>
         <p className='mb-1'>
@@ -271,8 +268,8 @@ const Terms: React.FC = (): JSX.Element => {
           </li>
         </ol>
 
-        <h3 className='text-3xl text-spotBlue mb-3 mt-8'>SUBMISSIONS</h3>
-        <p>
+        <h3 className='text-lg text-spotBlue mb-2 mt-8'>SUBMISSIONS</h3>
+        <p className='text-md'>
           You acknowledge and agree that any questions, comments, suggestions,
           ideas, feedback, or other information regarding the App
           (“Submissions”) provided by you to us are non-confidential and shall
@@ -287,8 +284,8 @@ const Terms: React.FC = (): JSX.Element => {
           alleged or actual infringement or misappropriation of any proprietary
           right in your Submissions.
         </p>
-        <h3 className='text-3xl text-spotBlue mb-3 mt-8'>ADVERTISERS</h3>
-        <p>
+        <h3 className='text-lg text-spotBlue mb-2 mt-8'>ADVERTISERS</h3>
+        <p className='text-md'>
           We allow advertisers to display their advertisements and other
           information in certain areas of the App, such as sidebar
           advertisements or banner advertisements. If you are an advertiser, you
@@ -302,7 +299,7 @@ const Terms: React.FC = (): JSX.Element => {
           relationship with advertisers.
         </p>
 
-        <h3 className='text-3xl text-spotBlue mb-3 mt-8'>APP MANAGEMENT</h3>
+        <h3 className='text-lg text-spotBlue mb-2 mt-8'>APP MANAGEMENT</h3>
         <p className='mb-1'>
           We reserve the right, but not the obligation, to:
         </p>
@@ -334,8 +331,8 @@ const Terms: React.FC = (): JSX.Element => {
             App.
           </li>
         </ol>
-        <h3 className='text-3xl text-spotBlue mb-3 mt-8'>PRIVACY POLICY</h3>
-        <p>
+        <h3 className='text-lg text-spotBlue mb-2 mt-8'>PRIVACY POLICY</h3>
+        <p className='text-md'>
           We care about data privacy and security. Please review our Privacy
           Policy. By using the App, you agree to be bound by our Privacy Policy,
           which is incorporated into these Terms and Conditions. Please be
@@ -347,10 +344,10 @@ const Terms: React.FC = (): JSX.Element => {
           to the United States, and you expressly consent to have your data
           transferred to and processed in the United States.
         </p>
-        <h3 className='text-3xl text-spotBlue mb-3 mt-8'>
+        <h3 className='text-lg text-spotBlue mb-2 mt-8'>
           COPYRIGHT INFRINGEMENTS
         </h3>
-        <p>
+        <p className='text-md'>
           We respect the intellectual property rights of others. If you believe
           that any material available on or through the App infringes upon any
           copyright you own or control, please immediately notify us using the
@@ -362,10 +359,10 @@ const Terms: React.FC = (): JSX.Element => {
           sure that material located on or linked to by the App infringes your
           copyright, you should consider first contacting an attorney.
         </p>
-        <h3 className='text-3xl text-spotBlue mb-3 mt-8'>
+        <h3 className='text-lg text-spotBlue mb-2 mt-8'>
           TERM AND TERMINATION
         </h3>
-        <p>
+        <p className='text-md'>
           These Terms and Conditions shall remain in full force and effect while
           you use the App. WITHOUT LIMITING ANY OTHER PROVISION OF THESE TERMS
           AND CONDITIONS, WE RESERVE THE RIGHT TO, IN OUR SOLE DISCRETION AND
@@ -384,10 +381,10 @@ const Terms: React.FC = (): JSX.Element => {
           right to take appropriate legal action, including without limitation
           pursuing civil, criminal, and injunctive redress.
         </p>
-        <h3 className='text-3xl text-spotBlue mb-3 mt-8'>
+        <h3 className='text-lg text-spotBlue mb-2 mt-8'>
           MODIFICATIONS AND INTERRUPTIONS
         </h3>
-        <p>
+        <p className='text-md'>
           We reserve the right to change, modify, or remove the contents of the
           App at any time or for any reason at our sole discretion without
           notice. However, we have no obligation to update any information on
@@ -406,8 +403,8 @@ const Terms: React.FC = (): JSX.Element => {
           will be construed to obligate us to maintain and support the App or to
           supply any corrections, updates, or releases in connection therewith.
         </p>
-        <h3 className='text-3xl text-spotBlue mb-3 mt-8'>CORRECTIONS</h3>
-        <p>
+        <h3 className='text-lg text-spotBlue mb-2 mt-8'>CORRECTIONS</h3>
+        <p className='text-md'>
           There may be information on the App that contains typographical
           errors, inaccuracies, or omissions that may relate to the App,
           including descriptions, pricing, availability, and various other
@@ -415,8 +412,8 @@ const Terms: React.FC = (): JSX.Element => {
           or omissions and to change or update the information on the App at any
           time, without prior notice.
         </p>
-        <h3 className='text-3xl text-spotBlue mb-3 mt-8'>DISCLAIMER</h3>
-        <p>
+        <h3 className='text-lg text-spotBlue mb-2 mt-8'>DISCLAIMER</h3>
+        <p className='text-md'>
           THE APP IS PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT
           YOUR USE OF THE APP AND OUR SERVICES WILL BE AT YOUR SOLE RISK. TO THE
           FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS
@@ -447,10 +444,10 @@ const Terms: React.FC = (): JSX.Element => {
           ENVIRONMENT, YOU SHOULD USE YOUR BEST JUDGMENT AND EXERCISE CAUTION
           WHERE APPROPRIATE.
         </p>
-        <h3 className='text-3xl text-spotBlue mb-3 mt-8'>
+        <h3 className='text-lg text-spotBlue mb-2 mt-8'>
           LIMITATIONS OF LIABILITY
         </h3>
-        <p>
+        <p className='text-md'>
           IN NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE
           TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL,
           EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING LOST
@@ -458,8 +455,8 @@ const Terms: React.FC = (): JSX.Element => {
           USE OF THE APP, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF
           SUCH DAMAGES.
         </p>
-        <h3 className='text-3xl text-spotBlue mb-3 mt-8'>USER DATA</h3>
-        <p>
+        <h3 className='text-lg text-spotBlue mb-2 mt-8'>USER DATA</h3>
+        <p className='text-md'>
           We will maintain certain data that you transmit to the App for the
           purpose of managing the App, as well as data relating to your use of
           the App. Although we perform regular routine backups of data, you are
@@ -469,10 +466,10 @@ const Terms: React.FC = (): JSX.Element => {
           data, and you hereby waive any right of action against us arising from
           any such loss or corruption of such data.
         </p>
-        <h3 className='text-3xl text-spotBlue mb-3 mt-8'>
+        <h3 className='text-lg text-spotBlue mb-2 mt-8'>
           ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES
         </h3>
-        <p>
+        <p className='text-md'>
           Visiting the App, sending us emails, and completing online forms
           constitute electronic communications. You consent to receive
           electronic communications, and you agree that all agreements, notices,
@@ -480,21 +477,21 @@ const Terms: React.FC = (): JSX.Element => {
           electronically, via email and on the App, satisfy any legal
           requirement that such communication be in writing.
         </p>
-        <h3 className='text-3xl text-spotBlue mb-3 mt-8'>
+        <h3 className='text-lg text-spotBlue mb-2 mt-8'>
           YOU HEREBY AGREE TO THE USE OF ELECTRONIC SIGNATURES, CONTRACTS,
           ORDERS, AND OTHER RECORDS, AND TO ELECTRONIC DELIVERY OF NOTICES,
           POLICIES, AND RECORDS OF TRANSACTIONS INITIATED OR COMPLETED BY US OR
           VIA THE APP.
         </h3>
-        <p>
+        <p className='text-md'>
           You hereby waive any rights or requirements under any statutes,
           regulations, rules, ordinances, or other laws in any jurisdiction
           which require an original signature or delivery or retention of
           non-electronic records, or to payments or the granting of credits by
           any means other than electronic means.
         </p>
-        <h3 className='text-3xl text-spotBlue mb-3 mt-8'>MISCELLANEOUS</h3>
-        <p>
+        <h3 className='text-lg text-spotBlue mb-2 mt-8'>MISCELLANEOUS</h3>
+        <p className='text-md'>
           These Terms and Conditions and any policies or operating rules posted
           by us on the App constitute the entire agreement and understanding
           between you and us. Our failure to exercise or enforce any right or

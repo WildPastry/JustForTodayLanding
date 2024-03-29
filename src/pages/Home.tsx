@@ -7,7 +7,7 @@ import Traditions from '../components/Traditions';
 
 const Home: React.FC = (): JSX.Element => {
   return (
-    <section className='flex-auto p-7 max-w-screen-xl m-auto'>
+    <section>
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-16 items-center mt-16'>
         <Reflections />
         <div>
@@ -16,7 +16,7 @@ const Home: React.FC = (): JSX.Element => {
         </div>
         <Traditions />
       </div>
-      <div className='flex justify-center items-center mt-5'>
+      <div className='flex justify-center items-center mt-8'>
         <FaArrowRight className='text-spotBlue mr-10' fontSize={60} />
         <Badges />
       </div>

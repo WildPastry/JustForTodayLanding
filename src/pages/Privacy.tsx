@@ -1,67 +1,65 @@
 const Privacy: React.FC = (): JSX.Element => {
   return (
-    <section>
-      <div className='flex flex-col max-w-screen-xl m-auto'>
-        <div className='my-8 m-auto'>
-          <h3 className='text-3xl z-10'>Privacy statement</h3>
+    <section className='flex flex-col'>
+      <div className='my-8 m-auto'>
+        <h2 className='text-2xl'>Privacy statement</h2>
+      </div>
+      <p className='w-1/2 m-auto text-xl leading-8'>
+        JustForToday respects your privacy and is committed to protecting your
+        personal information. This Privacy Statement outlines how we collect,
+        use, and safeguard your data when you use our mobile application.
+      </p>
+      <hr className='h-px my-10 bg-gray-600 border-0 w-1/2 m-auto' />
+      <div className='w-1/2 m-auto'>
+        <div className='mb-10'>
+          <h3 className='text-lg text-spotBlue mb-2'>Data Collection</h3>
+          <p className='text-md'>
+            We want to reassure our users that JustForToday does not collect any
+            personal data or information from you while you use our mobile
+            application. We do not gather any data about your device, usage
+            patterns, or any other information that could potentially identify
+            you.
+          </p>
         </div>
-        <p className='w-1/2 m-auto font-InterLight text-xl leading-8'>
-          JustForToday respects your privacy and is committed to protecting your
-          personal information. This Privacy Statement outlines how we collect,
-          use, and safeguard your data when you use our mobile application.
-        </p>
-        <hr className='h-px my-10 bg-gray-600 border-0 w-1/2 m-auto' />
-        <div className='w-1/2 m-auto'>
-          <div className='mb-10'>
-            <h3 className='text-lg text-spotBlue mb-2'>Data Collection</h3>
-            <p>
-              We want to reassure our users that JustForToday does not collect
-              any personal data or information from you while you use our mobile
-              application. We do not gather any data about your device, usage
-              patterns, or any other information that could potentially identify
-              you.
-            </p>
-          </div>
-          <div className='mb-10'>
-            <h3 className='text-lg text-spotBlue mb-2'>Data Usage</h3>
-            <p>
-              Since we do not collect any data, we do not use your personal
-              information for any purpose.
-            </p>
-          </div>
-          <div className='mb-10'>
-            <h3 className='text-lg text-spotBlue mb-2'>Data Sharing</h3>
-            <p>
-              We do not share any data, personal or otherwise, with third
-              parties. Your information is not disclosed, sold, or rented to any
-              external entities.
-            </p>
-          </div>
-          <div className='mb-10'>
-            <h3 className='text-lg text-spotBlue mb-2'>Changes</h3>
-            <p>
-              We reserve the right to update this Privacy Statement from time to
-              time. Any changes will be reflected on this page.
-            </p>
-          </div>
-          <div className='mb-10'>
-            <h3 className='text-lg text-spotBlue mb-2'>Contact Us</h3>
-            <p>
-              If you have any questions or concerns regarding this Privacy
-              Statement or the privacy practices of JustForToday, please contact
-              us
-              <a className='ml-1' href='mailto:justfortoday@mikeparker.co.nz'>
-                here
-              </a>
-              .
-            </p>
-            <p className='mt-3'>
-              By using JustForToday, you signify your acceptance of this Privacy
-              Statement. If you do not agree to this Privacy Statement, please
-              refrain from using our mobile application. Thank you for trusting
-              JustForToday with your privacy.
-            </p>
-          </div>
+        <div className='mb-10'>
+          <h3 className='text-lg text-spotBlue mb-2'>Data Usage</h3>
+          <p className='text-md'>
+            Since we do not collect any data, we do not use your personal
+            information for any purpose.
+          </p>
+        </div>
+        <div className='mb-10'>
+          <h3 className='text-lg text-spotBlue mb-2'>Data Sharing</h3>
+          <p className='text-md'>
+            We do not share any data, personal or otherwise, with third parties.
+            Your information is not disclosed, sold, or rented to any external
+            entities.
+          </p>
+        </div>
+        <div className='mb-10'>
+          <h3 className='text-lg text-spotBlue mb-2'>Changes</h3>
+          <p className='text-md'>
+            We reserve the right to update this Privacy Statement from time to
+            time. Any changes will be reflected on this page.
+          </p>
+        </div>
+        <div className='mb-10'>
+          <h3 className='text-lg text-spotBlue mb-2'>Contact Us</h3>
+          <p className='text-md'>
+            If you have any questions or concerns regarding this Privacy
+            Statement or the privacy practices of JustForToday, please contact
+            us
+            <a className='ml-1' href='mailto:justfortoday@mikeparker.co.nz'>
+              here
+            </a>
+            .
+          </p>
+          <p className='mt-3'>
+            By using JustForToday, you signify your acceptance of this Privacy
+            Statement. If you do not agree to this Privacy Statement, please
+            refrain from using our mobile application. Thank you for trusting
+            JustForToday with your privacy.
+          </p>
         </div>
       </div>
     </section>

@@ -3,7 +3,7 @@ import googeStoreBadge from './../assets/img/google.svg';
 
 const Badges: React.FC = (): JSX.Element => {
   return (
-    <section className=''>
+    <section>
       <div className='align-bottom inline-block me-10'>
         <a
           className='align-bottom inline-block'
