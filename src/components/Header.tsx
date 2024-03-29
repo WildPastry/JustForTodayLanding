@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const Header: React.FC = (): JSX.Element => {
   return (
     <section className='bg-darkBlue'>
-      <div className='flex flex-row items-center justify-between px-7 py-3 max-w-screen-xl m-auto'>
+      <div className='flex flex-row items-center justify-between px-8 py-5 max-w-screen-xl m-auto'>
         <NavLink to={'/home'}>
           <Logo />
         </NavLink>

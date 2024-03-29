@@ -14,7 +14,6 @@ export default {
         InterBold: ['InterBold'],
         InterLight: ['InterLight'],
         InterRegular: ['InterRegular'],
-        InterThin: ['InterThin'],
         SpaceMonoBold: ['SpaceMonoBold'],
         SpaceMonoRegular: ['SpaceMonoRegular']
       }

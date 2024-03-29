@@ -1,19 +1,14 @@
 /* eslint-disable max-len */
 /* eslint-disable max-lines-per-function */
-import { Link } from 'react-router-dom';
-import { MdClose } from 'react-icons/md';
 import Rectangle from '../components/Rectangle';
 
 const Terms: React.FC = (): JSX.Element => {
   return (
     <section>
       <div className='flex flex-col max-w-screen-xl m-auto'>
-        <div className='flex flex-row items-center justify-between mb-16 relative'>
+        <div className='mb-8 relative'>
           <Rectangle colour='darkBlue' width='405' />
           <h2 className='text-3xl z-10 relative'>Terms and conditions</h2>
-          <Link to={'/'}>
-            <MdClose fontSize={35} />
-          </Link>
         </div>
         <p className='w-1/2'>
           These Terms and Conditions constitute a legally binding agreement made
@@ -31,7 +26,7 @@ const Terms: React.FC = (): JSX.Element => {
           for any reason. We will alert you about any changes by email, and you
           waive any right to receive specific notice of each such change.
         </p>
-        <hr className='h-px my-10 bg-gray-200 border-0 dark:bg-gray-700' />
+        <hr className='h-px my-10 bg-gray-600 border-0' />
         <h3 className='text-3xl text-spotBlue mb-3'>
           INTELLECTUAL PROPERTY RIGHTS
         </h3>

@@ -13,13 +13,6 @@
 }
 
 @font-face {
-  font-family: 'InterThin';
-  src:
-    local('InterThin'),
-    url(./assets/fonts/Inter-Thin.ttf) format('truetype');
-}
-
-@font-face {
   font-family: 'InterLight';
   src:
     local('InterLight'),
