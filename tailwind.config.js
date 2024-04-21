@@ -16,6 +16,18 @@ export default {
         InterRegular: ['InterRegular'],
         SpaceMonoBold: ['SpaceMonoBold'],
         SpaceMonoRegular: ['SpaceMonoRegular']
+      },fontSize: {
+        '100': '100px',
+        '200': '200px',
+        '250': '250px',
+        '300': '300px',
+      },
+      screens: {
+        'xtraLarge': {'min': '1120px'},
+        'large': {'min': '935px', 'max': '1120px'},
+        'medium': {'min': '850px', 'max': '935px'},
+        'small': {'min': '790px', 'max': '850px'},
+        'xtraSmall': {'max': '790px'},
       },
       width: {
         700: '700px'

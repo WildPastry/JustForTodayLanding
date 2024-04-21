@@ -2,7 +2,7 @@ import Rectangle from './Rectangle';
 
 const Steps: React.FC = (): JSX.Element => {
   return (
-    <section className='relative mb-10'>
+    <section className='relative mb-10 small:mb-0 xtraSmall:mb-0'>
       <Rectangle colour='midBlue' width='93' />
       <h1 className='text-3xl mb-5 z-10 relative'>Steps</h1>
       <p className='text-md'>
