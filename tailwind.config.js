@@ -27,7 +27,9 @@ export default {
         'large': {'min': '935px', 'max': '1120px'},
         'medium': {'min': '850px', 'max': '935px'},
         'small': {'min': '790px', 'max': '850px'},
-        'xtraSmall': {'max': '790px'},
+        'xtraSmall': {'min': '674px','max': '790px'},
+        'mobileLarge': {'min': '460px','max': '674px'},
+        'mobileSmall': {'max': '460px'}
       },
       width: {
         700: '700px'

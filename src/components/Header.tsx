@@ -9,7 +9,7 @@ const Header: React.FC = (): JSX.Element => {
         <NavLink to={'/home'}>
           <Logo />
         </NavLink>
-        <ul className='flex flex-row items-center gap-4'>
+        <ul className='flex flex-row items-center gap-4 mobileLarge:hidden mobileSmall:hidden'>
           <li>
             <NavLink to={'/home'}>HOME</NavLink>
           </li>

@@ -3,8 +3,8 @@ const Footer: React.FC = (): JSX.Element => {
   // Get current date
   const currentDate: number = new Date().getFullYear();
   return (
-    <section className='flex flex-row items-center justify-between px-8 py-8 max-w-screen-xl m-auto'>
-      <p>
+    <section className='flex flex-row items-center justify-between px-8 py-8 max-w-screen-xl m-auto mobileLarge:flex-col mobileLarge:gap-2 mobileSmall:flex-col mobileSmall:gap-2 mobileSmall:pt-2'>
+      <p className="mobileSmall:hidden">
         All reference material ©
         <a
           className='ml-1'
