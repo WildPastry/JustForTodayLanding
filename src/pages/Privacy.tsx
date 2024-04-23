@@ -1,6 +1,6 @@
 const Privacy: React.FC = (): JSX.Element => {
   return (
-    <section className='w-700 m-auto'>
+    <section className='w-700 m-auto max783:w-auto'>
       <div className='my-10'>
         <h2 className='text-2xl text-center'>Privacy statement</h2>
       </div>
