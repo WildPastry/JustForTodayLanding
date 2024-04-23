@@ -21,6 +21,7 @@
   text-rendering: optimizeLegibility;
 }
 
+/* Default styles */
 html,
 body,
 #root {
@@ -89,10 +90,7 @@ h3 {
   transition-timing-function: linear;
 }
 
-.hamburger:hover {
-  opacity: 0.7;
-}
-
+.hamburger:hover,
 .hamburger.is-active:hover {
   opacity: 0.7;
 }
