@@ -7,7 +7,7 @@ const Layout: React.FC = (): JSX.Element => {
   return (
     <main className='h-full w-full flex flex-col'>
       <Header />
-      <section className='flex flex-auto p-8 max-w-screen-xl items-center m-auto relative mobileLarge:items-start'>
+      <section className='flex flex-auto p-6 min674:p-8 max-w-screen-xl items-center m-auto relative mobileLarge:items-start'>
         <Outlet />
       </section>
       <div className='shrink-0'>

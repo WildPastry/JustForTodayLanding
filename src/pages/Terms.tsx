@@ -2,10 +2,10 @@
 const Terms: React.FC = (): JSX.Element => {
   return (
     <section className='w-700 m-auto max783:w-auto'>
-      <div className='my-10'>
+      <div className='mb-5 min674:my-10'>
         <h2 className='text-2xl text-center'>Terms and conditions</h2>
       </div>
-      <p className='text-xl leading-8 mb-2'>
+      <p className='text:md min674:text-xl leading-8 mb-4'>
         These Terms and Conditions constitute a legally binding agreement made
         between you, whether personally or on behalf of an entity (“you”) and
         JUSTFORTODAY (“we,” “us” or “our”), concerning your access to and use of
@@ -13,7 +13,7 @@ const Terms: React.FC = (): JSX.Element => {
         that by accessing the App, you have read, understood, and agree to be
         bound by all of these Terms and Conditions.
       </p>
-      <p className='text-xl leading-8'>
+      <p className='text:md min674:text-xl leading-8'>
         If you do not agree with all of these Terms and Conditions, then you are
         expressly prohibited from using the App and you must discontinue use
         immediately. We reserve the right, in our sole discretion, to make

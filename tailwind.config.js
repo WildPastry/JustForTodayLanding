@@ -32,6 +32,7 @@ export default {
         'mobileSmall': {'max': '460px'},
         'max783': {'max': '783px'},
         'min674': {'min': '674px'},
+        'max674': {'max': '674px'},
         'min460': {'min': '460px'}
       },
       width: {
