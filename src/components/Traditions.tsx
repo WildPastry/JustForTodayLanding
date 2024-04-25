@@ -1,13 +1,21 @@
 import React from 'react';
 import Rectangle from './Rectangle';
-import { useScreenWidth } from '../utils/useScreenWidth';
+import { useMediaQuery } from '../utils/useMediaQuery';
 
 const Traditions: React.FC = (): JSX.Element => {
-  const screenWidth = useScreenWidth(400); // Set your desired breakpoint here
+  const defaultScreen = useMediaQuery('(min-width: 460px)');
+
+  const getHeight = (): string => {
+    return defaultScreen ? '20' : '10';
+  };
+
+  const getWidth = (): string => {
+    return defaultScreen ? '186' : '150';
+  };
 
   return (
     <section className='relative'>
-      <Rectangle colour='midBlue' width={screenWidth.toString()} />
+      <Rectangle colour='midBlue' height={getHeight()} width={getWidth()} />
       <h1 className='text-3xl mb-5 z-10 relative mobileSmall:text-2xl'>Traditions</h1>
       <p className='text-md'>
         Providing guidelines for relationships between the groups, members, the

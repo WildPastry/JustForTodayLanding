@@ -4,8 +4,8 @@ const Footer: React.FC = (): JSX.Element => {
   const currentDate: number = new Date().getFullYear();
   return (
     <section className='flex flex-row items-center justify-between px-8 py-8 max-w-screen-xl m-auto mobileLarge:flex-col mobileLarge:gap-2 mobileSmall:flex-col mobileSmall:gap-2 mobileSmall:pt-2'>
-      <p className="mobileSmall:hidden">
-        All reference material ©
+      <p className="mobileSmall:text-sm">
+        Material ©
         <a
           className='ml-1'
           href='https://www.aa.org/'
@@ -15,7 +15,7 @@ const Footer: React.FC = (): JSX.Element => {
         </a>
       </p>
       <div>
-        <p>
+        <p className="mobileSmall:text-sm">
           © {currentDate}
           <a
             className='ml-1'
