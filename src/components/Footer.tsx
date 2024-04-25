@@ -3,8 +3,8 @@ const Footer: React.FC = (): JSX.Element => {
   // Get current date
   const currentDate: number = new Date().getFullYear();
   return (
-    <section className='flex flex-row items-center justify-between px-8 py-8 max-w-screen-xl m-auto mobileLarge:flex-col mobileLarge:gap-2 mobileSmall:flex-col mobileSmall:gap-2 mobileSmall:pt-2'>
-      <p className="mobileSmall:text-sm">
+    <section className='flex flex-row items-center justify-between px-8 py-8 max-w-screen-xl m-auto min460max674:flex-col min460max674:gap-2 max460:flex-col max460:gap-2 max460:pt-2'>
+      <p className="max460:text-sm">
         Material ©
         <a
           className='ml-1'
@@ -15,7 +15,7 @@ const Footer: React.FC = (): JSX.Element => {
         </a>
       </p>
       <div>
-        <p className="mobileSmall:text-sm">
+        <p className="max460:text-sm">
           © {currentDate}
           <a
             className='ml-1'

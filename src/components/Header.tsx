@@ -22,7 +22,7 @@ const Header: React.FC = (): JSX.Element => {
           <Logo />
         </NavLink>
         {/* Desktop menu */}
-        <ul className='flex flex-row items-center gap-4 mobileLarge:hidden mobileSmall:hidden'>
+        <ul className='flex flex-row items-center gap-4 min460max674:hidden max460:hidden'>
           <li>
             <NavLink to={'/home'}>HOME</NavLink>
           </li>
