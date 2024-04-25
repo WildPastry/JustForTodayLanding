@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'SpaceMonoRegular';
+  src:
+    local('SpaceMonoRegular'),
+    url(./assets/fonts/SpaceMono-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'SpaceMonoBold';
+  src:
+    local('SpaceMonoBold'),
+    url(./assets/fonts/SpaceMono-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'InterLight';
+  src:
+    local('InterLight'),
+    url(./assets/fonts/Inter-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'InterRegular';
+  src:
+    local('InterRegular'),
+    url(./assets/fonts/Inter-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'InterBold';
+  src:
+    local('InterBold'),
+    url(./assets/fonts/Inter-Bold.ttf) format('truetype');
+}

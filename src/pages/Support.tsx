@@ -1,24 +1,18 @@
-import { Link } from 'react-router-dom';
-import { MdClose } from 'react-icons/md';
+import { HiWrenchScrewdriver } from 'react-icons/hi2';
 
 const Support: React.FC = (): JSX.Element => {
   return (
-    <section className='h-full w-full flex flex-col px-7 py-3'>
-      <div className='flex flex-row items-center justify-between mb-10'>
-        <h2 className='text-3xl'>SUPPORT</h2>
-        <Link to={'/'}>
-          <MdClose fontSize={50} />
-        </Link>
+    <section className='w-700 m-auto max783:w-auto'>
+      <div className='mb-5 min674:my-10'>
+        <h2 className='text-2xl text-center'>Support</h2>
       </div>
-      <h3>Support for JFT:</h3>
-      <hr className='h-px my-4 bg-gray-200 border-0 dark:bg-gray-700' />
-      <p>Frequently asked questions:</p>
-      <hr className='h-px my-4 bg-gray-200 border-0 dark:bg-gray-700' />
-      <p>Other questions:</p>
-      <p>
-        <a href='mailto:justfortoday@mikeparker.co.nz'>
-          justfortoday@mikeparker.co.nz
+      <HiWrenchScrewdriver className='text-gray-900 m-auto mb-10 max460:text-200 min460:text-300' />
+      <p className='text:md min674:text-xl leading-8 text-center'>
+        For any support or questions please contact the team
+        <a className='ml-1' href='mailto:justfortoday@mikeparker.co.nz'>
+          here
         </a>
+        .
       </p>
     </section>
   );

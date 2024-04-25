@@ -1,38 +1,15 @@
-import Badges from '../components/Badges';
+/* eslint-disable max-len */
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import { MdStairs } from 'react-icons/md';
-import Reflections from '../components/Reflections';
-import Steps from '../components/Steps';
-import Traditions from '../components/Traditions';
+import { Outlet } from 'react-router-dom';
 
 const Layout: React.FC = (): JSX.Element => {
   return (
     <main className='h-full w-full flex flex-col'>
       <Header />
-      {/* Flex content */}
-      <section className='flex-auto p-7'>
-        {/* Top section */}
-        <div className='flex flex-row w-full justify-between'>
-          <div>
-            <Reflections />
-          </div>
-          <div>
-            <Steps />
-            <MdStairs fontSize={200} />
-          </div>
-        </div>
-        {/* Bottom section */}
-        <div className='flex flex-row w-full justify-between'>
-          <div>
-            <Traditions />
-          </div>
-          <div>
-            <Badges />
-          </div>
-        </div>
+      <section className='flex flex-auto p-6 min674:p-8 max-w-screen-xl items-center m-auto relative min460max674:items-start'>
+        <Outlet />
       </section>
-      {/* Footer */}
       <div className='shrink-0'>
         <Footer />
       </div>
