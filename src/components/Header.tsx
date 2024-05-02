@@ -48,7 +48,7 @@ const Header: React.FC = (): JSX.Element => {
       {/* Mobile menu */}
       {showMenu ? (
         <div className='absolute inset-0 h-full w-full z-20 bg-darkBlue flex flex-col items-center justify-center min674:hidden'>
-          <ul className='flex flex-col items-center gap-10 text-3xl'>
+          <ul className='flex flex-col items-center gap-10 text-2xl min460:text-3xl'>
             <li onClick={() => toggleMenu()}>
               <NavLink to={'/home'}>HOME</NavLink>
             </li>
