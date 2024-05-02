@@ -29,6 +29,7 @@ export default {
         'max783': {'max': '783px'},
         'min1120': {'min': '1120px'},
         'min460': {'min': '460px'},
+        'max515': {'max': '515px'},
         'min460max674': {'min': '460px','max': '674px'},
         'min674': {'min': '674px'},
         'min850': {'min': '850px'},
