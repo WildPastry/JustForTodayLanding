@@ -1,5 +1,6 @@
-import { useMediaQuery } from '../utils/useMediaQuery';
+/* eslint-disable max-len */
 import Rectangle from './Rectangle';
+import { useMediaQuery } from '../utils/useMediaQuery';
 
 const Steps: React.FC = (): JSX.Element => {
   const defaultScreen = useMediaQuery('(min-width: 460px)');

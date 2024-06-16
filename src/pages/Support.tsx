@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import { HiWrenchScrewdriver } from 'react-icons/hi2';
 
 const Support: React.FC = (): JSX.Element => {
