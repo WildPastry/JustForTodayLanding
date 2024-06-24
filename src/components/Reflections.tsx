@@ -1,5 +1,5 @@
-import { useMediaQuery } from '../utils/useMediaQuery';
 import Rectangle from './Rectangle';
+import { useMediaQuery } from '../utils/useMediaQuery';
 
 const Reflections: React.FC = (): JSX.Element => {
   const defaultScreen = useMediaQuery('(min-width: 460px)');
@@ -15,7 +15,9 @@ const Reflections: React.FC = (): JSX.Element => {
   return (
     <section className='relative'>
       <Rectangle colour='midBlue' height={getHeight()} width={getWidth()} />
-      <h1 className='text-3xl mb-5 z-10 relative max460:text-2xl'>Reflections</h1>
+      <h1 className='text-3xl mb-5 z-10 relative max460:text-2xl'>
+        Reflections
+      </h1>
       <p className='text-md'>
         Drawing from the principles of the Twelve Steps and Twelve Traditions of
         Alcoholics Anonymous, daily reflections delve into themes such as

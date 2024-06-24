@@ -5,8 +5,9 @@ export const useMediaQuery = (query: string) => {
   const [matches, setMatches] = useState(mediaMatch.matches);
 
   useEffect(() => {
-    const handler = (e: { matches: boolean | ((prevState: boolean) => boolean); }) => setMatches(e.matches);
-    const listener = (e: { matches: boolean | ((prevState: boolean) => boolean); }) => handler(e);
+    const handler = (e: { matches: boolean | (() => boolean) }) =>
+      setMatches(e.matches);
+    const listener = (e: { matches: boolean | (() => boolean) }) => handler(e);
     mediaMatch.addEventListener('change', listener);
     return () => {
       mediaMatch.removeEventListener('change', listener);

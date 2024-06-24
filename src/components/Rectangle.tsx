@@ -4,7 +4,7 @@ export interface IRectangle {
   width: string;
 }
 
-const Rectangle: React.FC<IRectangle> = (props: IRectangle): JSX.Element => {  
+const Rectangle: React.FC<IRectangle> = (props: IRectangle): JSX.Element => {
   return (
     <div
       style={{

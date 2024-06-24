@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
-import { useState } from 'react';
 import Logo from './Logo';
 import { NavLink } from 'react-router-dom';
+import { useState } from 'react';
 
 const Header: React.FC = (): JSX.Element => {
   // Component settings
@@ -41,7 +41,7 @@ const Header: React.FC = (): JSX.Element => {
           type='button'
           onClick={() => toggleMenu()}>
           <span className='hamburger-box'>
-            <span className='hamburger-inner'></span>
+            <span className='hamburger-inner' />
           </span>
         </button>
       </div>
